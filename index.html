@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titol 1</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function myFunction(){
+            alert ("Se ha ejecutado el evento onload")
+
+        }
+        function anuncio(){
+            alert ("Delegado se ha ejecutado el evento onload")    
+        }
+        function pulsado(){
+            alert ("He pulsado")
+        }
+    </script>
 </head>
 <body>
     <h1>Hola mundo</h1>
     <p>Blood</p>
+    <input type="text" onkeypress="pulsado()">
+    <p class="especial">Clase especial</p>
 </body>
 </html>
