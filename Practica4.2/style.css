@@ -40,3 +40,31 @@ p{
     color: indianred;
     font-size: 10pt;
 }
+
+#correo{
+    border: black 1px solid;
+    text-align: center;
+    display: inline-block;
+    top: 50px;
+    position: relative;
+}
+
+#telefono{
+    border: black 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-size-adjust: none;
+    top: 50px;
+    left: 40%;
+    position: relative;
+}
+
+#oficina{
+        border: black 1px solid;
+        text-align: center;
+        display: inline-block;
+        font-size-adjust: none;
+        top: 50px;
+        left: 80%;
+        position: relative;
+}
