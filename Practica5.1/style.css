@@ -20,3 +20,9 @@ p.Apartados{
 span.Seccion{
     font-weight: bold;
 }
+
+p.Final{
+    text-align: center;
+    border: blue solid 1px;
+    background-color: rgba(128, 128, 128, 0.288);
+}
