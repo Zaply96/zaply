@@ -1,0 +1,22 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 28pt;
+    text-align: center;
+}
+p.Texto{
+    background-color: rgba(4, 192, 161, 0.274);
+}
+
+p.Apartados{
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+span.Seccion{
+    font-weight: bold;
+}
