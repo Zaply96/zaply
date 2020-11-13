@@ -1,0 +1,56 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1{
+    font-size: 50pt;
+    letter-spacing: 1cm;
+    color: honeydew;
+    font-weight: bold;
+    text-align: center;
+}
+
+img.Fiore{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    height: 300px;
+}
+
+img.Croce{
+    float: both;
+    margin-bottom: 5px;
+    height: 300px;
+}
+p.centrado{ text-align: center;}
+
+img.Novella{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 300px;
+}
+
+p.Titulo{
+    clear: both;
+    font-size: 25pt;
+    font-weight: bold;
+    background-color: rgb(112, 85, 231);
+    border: white 1px solid;
+    text-indent: 10px;
+
+}
+
+p.Texto{
+    font-size: 15pt;
+    letter-spacing: 1mm;
+}
+
+address{
+    margin-top: 60px;
+    clear: both;
+}
