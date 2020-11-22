@@ -1,0 +1,13 @@
+ul.circulo{
+    list-style-type: circle;
+}
+ol.romano{
+    list-style-type: upper-roman;
+}
+ol.abc{
+    list-style-type: lower-alpha;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
