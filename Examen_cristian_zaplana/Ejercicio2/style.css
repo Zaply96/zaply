@@ -1,0 +1,45 @@
+body{
+    background-color: wheat;
+}
+a{
+    clear: both;
+    text-align: center;
+    display: inline;
+}
+nav{
+    align-content: center;
+    background-color: rgba(2, 167, 167, 0.692);
+}
+
+section.primero{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.primero2{
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.izquierda{float: left;
+width: 120px;}
+p.texto1{background-color: white;
+font-size: 8pt;}
+
+.derecha{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+p.texto2{
+    font-size: 8pt;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    background-color: wheat;
+}
+section.segundo{
+    background-color: rgb(0, 153, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;}
+.final{text-align: center;}
