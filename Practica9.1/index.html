@@ -7,25 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="hu">
-        <h3>Accede a tu Área Clientes</h3>
-        <form action="ejemplo.php" method="GET">
-            <p>Elige tu documento</p>
-            <input type="radio" name="boton" value="1">DNI o Tarjeta de residencia<br>
-            <input type="radio" name="boton" value="2">Pasaporte<br>
-            <p>Número de documento <br><input type="text" name="texto" value="DNI o Tarjeta de residencia"> </p>
-            <p>Fecha de nacimiento <br><input type="date" name="fecha" id=""></p>
-            <input type="checkbox" name="recordar" id="recordar">Recordar <br><br>
-            <input type="submit" value="Enviar">
-        </form><br>
-        <details>
-            <summary>Acceder con DNI electrónico</summary>
-            <p>Texto sobre la información</p>
-        </details>
-        <details>
-            <summary>Más información sobre seguridad</summary>
-            <p>Texto sobre seguridad</p>
-        </details>
+    <div id="sup">
+        <div class="sub">
+            <h3>Accede a tu Área Clientes</h3>
+            <form action="ejemplo.php" method="GET">
+                <p>Elige tu documento</p>
+                <input type="radio" name="boton" value="1">DNI o Tarjeta de residencia<br>
+                <input type="radio" name="boton" value="2">Pasaporte<br>
+                <p>Número de documento <br><input type="text" name="texto" id="documento" placeholder="DNI o Tarjeta de residencia"> </p>
+                <p>Fecha de nacimiento <br><input type="date" name="fecha" id="nacimiento"></p>
+                <input type="checkbox" name="recordar" id="recordar">Recordar <br><br>
+                <input type="submit" value="Entrar" class="envio">
+            </form><br>
+            <details>
+                <summary>Acceder con DNI electrónico</summary>
+                <p>Texto sobre la información</p>
+            </details>
+            <details>
+                <summary>Más información sobre seguridad</summary>
+                <p>Texto sobre seguridad</p>
+            </details>
+        </div>
+        <div class="sub">
+            <h3>Empieza creando tu usuario</h3>
+            <form action="ejemplo2.php" method="GET">
+                <div id="sub1"></div>
+                    <input type="text" placeholder="Nombre (como sale en el DNI)" id="nombre"> <br>
+                    <input type="text" placeholder="1º apellido  (como sale en el DNI)" class="acortar">
+                    <input type="text" placeholder="2º apellido  (como sale en el DNI)" class="acortar"><br>
+                    <select name="documento" id="seleccion" class="acortar">
+                        <option value="1" selected>DNI/NIF/CERT.AEAT</option>
+                    </select>
+                    <input type="text"placeholder="Número de documento" class="acortar"><br>
+                    <select name="telefono" id="bandera" class="acortar">
+                        <option value="">España (+34)</option>
+                    </select>
+                    <input type="text" placeholder="Email" class="acortar"><br><br>
+                    <input type="submit" value="Enviar" class="envio">
+                </div>
+            </form>
+        </div>
+        <div class="sub">
+            <div id="sub2">
+                <h2>¿Eres nuevo?</h2>
+                <p>Regístrate para guardar tu información y hacer tus pedidos de forma más fácil y rápida.</p>
+            </div>
+            <p>Email <br><input type="text" placeholder="Introduce tu email"></p>
+            <p>Teléfono <br><input type="text" placeholder="Introduce tu teléfono"></p>
+            <p>Contraseña <br><input type="password" placeholder="Introduce tu contraseña" ></p>
+            <p>Confirma tu contraseña <br><input type="password" placeholder="Confirma tu contraseña"></p>
+            <input type="checkbox" name="politica" id="politica"> He leído y acepto la <u>Política de privacidad</u><br><br>
+            <input type="checkbox" name="publi" id="publi">Sí, acepto recibir comunicaciónes comerciales y ofertas personalizadas según mi perfil. <br><br>
+            <input type="submit" value="Crea tu cuenta" class="envio">            
+        </div>
     </div>
 </body>
 </html>

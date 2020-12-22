@@ -3,8 +3,50 @@
 body{ font-family: Cambria, 'Nanum Gothic', sans-serif;
 }
 
-#hu{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+/* #sup {
+    display: flex;
+    justify-content: center;
+  } */
+
+.sub{
+    width:  300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
 }
+
+/*PRIMER FORMULARIO*/
+.envio{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(248, 110, 60);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#documento{
+    width: 200px;
+    height: 25px;
+}
+#nacimiento{
+    height: 25px;
+}
+
+/*SEGUNDO FORMULARIO*/
+.acortar{width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+#nombre{display: inline-block;
+    width: 220px;
+    margin: 10px;
+}
+#sub1{
+}
+
+/*TERCER FORMULARIO*/
+#sub2{
+    text-align: center;
+}
+
