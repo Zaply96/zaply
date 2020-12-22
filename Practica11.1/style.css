@@ -14,6 +14,11 @@ body{ font-family: 'Nanum Gothic', Cambria, sans-serif;
     border-left: 1px rgb(0, 14, 138) solid;
     border-right: 1px rgb(0, 14, 138) solid;
 }
+
+.aviso{
+    font-size: 8pt;
+    margin-left: 20px;
+}
 #Nombre{
     color: white;
     font-size: 40pt;
@@ -24,6 +29,66 @@ body{ font-family: 'Nanum Gothic', Cambria, sans-serif;
 }
 #foto{
     height: 80px;
-    vertical-align: center;
+    vertical-align: center; 
+    margin-right: 20px;
+    position: static; 
     float: right;
+    margin-left: auto;
+    
 }
+
+#formulario{
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+    margin-right: auto;
+    width: 50%;
+}
+
+.titulos{
+    font-weight: bold;
+    color: green;
+    letter-spacing: 3px;
+    font-size: 18pt;
+    
+}
+details[open] summary ~ * {
+    animation: open 0.3s ease-in-out;
+  }
+  
+  @keyframes open {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  details summary:after {
+    content: "+";
+    color: black;
+    position: absolute;
+    font-size: 1.75rem;
+    line-height: 0;
+    margin-top: 0.75rem;
+    right: 0;
+    font-weight: 100;
+    /* transform-origin: center; */
+    transition: 200ms linear;
+  }
+details[open] summary:after {
+    transform: rotate(45deg);
+  }
+  details summary {
+    position: relative;
+    cursor: pointer;
+    border-bottom: black 1px solid;
+    margin-top: 20px;
+  }
+  details summary {
+    outline: 0;
+  }
+
