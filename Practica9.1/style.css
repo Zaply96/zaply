@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body{ font-family: Cambria, 'Nanum Gothic', sans-serif;
-    
+}
+
+#hu{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
