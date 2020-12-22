@@ -9,7 +9,10 @@ body{ font-family: 'Nanum Gothic', Cambria, sans-serif;
     align-items: center;
     height: 100px;
     border-radius: 10px;
-    border-bottom: rgb(0, 17, 255) 6px solid;
+    border-bottom: rgb(0, 14, 138) 7px solid;
+    border-top:  rgb(0, 14, 138) 7px solid;
+    border-left: 1px rgb(0, 14, 138) solid;
+    border-right: 1px rgb(0, 14, 138) solid;
 }
 #Nombre{
     color: white;
