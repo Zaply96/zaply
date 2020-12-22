@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{ font-family: 'Nanum Gothic', Cambria, sans-serif;
+}
+
+#cabecera{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+    border-bottom: rgb(255, 0, 0) 6px solid;
+}
+#Nombre{
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 7px;
+    vertical-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#foto{
+    height: 80px;
+    vertical-align: center;
+    float: right;
+}
