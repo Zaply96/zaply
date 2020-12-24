@@ -1,19 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil profesional</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <object
-  type="application/x-shockwave-flash"
-  data="https://www.youtube.com/v/vZV-t3KzTpw"
-  style="width: 425px; height:350px;">
-  <param
-    name="movie"
-    value="https://www.youtube.com/v/vZV-t3KzTpw">
-  ERROR (no puede mostrarse el objeto)
-</object>
+    <header>
+        <div id="cabecera">
+            <span id="Nombre">Cristian Zaplana Ortiz</span>
+            <img src="./image/foto.jpg" alt="Foto de perfil" id="foto">
+        </div>
+    </header>
+    <nav>
+        <span class="aviso">*Toda información excepto el nombre es inventada, toda coincidencia con la realidad es mera casualidad*</span>
+    </nav>
+    <section>
+        <div id="formulario">
+            <details open>
+                <summary><span class="titulos">DATOS PERSONALES</span></summary>
+                <p>- Nombre: Cristian Zaplana</p>
+                <p>- Fecha de nacimiento: 06-02-2000</p>
+                <p>- Ubicación: Av. inventada Nº7, Valencia</p>
+                <p>- Teléfono: +34 663859225</p>
+            </details>
+            <details>
+                <summary><span class="titulos">FORMACION</span></summary>
+                <p>- Título de ESO en IES el Grao (2016)</p>
+                <p>- Carnet de manipulador de alimentos en CDT Valencia (2016)</p>
+                <p>- Título Formación Profesional Grado Medio SMR en IES el Grao (2020)</p>
+            </details>
+            <details>
+                <summary><span class="titulos">EXPERENCIA LABORAL</span></summary>
+                <p>- Personal de mantenimiento de equipos informáticos en Ibim (2 años)</p>
+                <p>- Camarero de fiestas de pueblo (1 año)</p>
+                <p>- Montaje y desmontaje de escenários (2 meses)</p>
+            </details>
+            <details>
+                <summary><span class="titulos">DATOS EXTRA</span></summary>
+                <p>Estudiando actualmente una Formación Profesional Grado Superior DAM. Estoy buscando trabajo de media jornada para compaginar con las clases.</p>
+                <p>Me considero trabajador y agradable, suelo tomar la iniciativa y aprendo rápido</p>
+            </details>
+        </div>
+    </section>
+    <section>
+        <div id="cont_video">
+            <p><strong>VideoCV</strong></p>
+            <iframe id="insertado" width="380px" height="215px" src="https://www.youtube.com/embed/iqpb4u8TcUQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="aviso">*Por privacidad, el VideoCV está sacado de una cuenta de Youtube ajena*</p><br><br>
+            
+            <p><strong>Archivo PDF</strong></p>
+            <object id="insertado" type="application/pdf" data="./archivos/cv.pdf" style="width: 380px; height: 215px;">ERROR (no puede mostrarse el pdf)</object>
+            <a href="https://www.udlap.mx/centrodeescritura/files/curriculumVitae-Ejemplos.pdf">Descargar</a>
+        </div>
+    </section>
+    <footer>
+        <p class="aviso">Creado por Cristian Zaplana Ortiz como trabajo de clase de FPGS DAM en IES el Grao</p>
+    </footer>
 </body>
+
 </html>
