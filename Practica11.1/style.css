@@ -2,8 +2,6 @@
 
 body{ font-family: 'Nanum Gothic', Cambria, sans-serif;
   height: 1200px;
-  width: 100%;
-}
 
 #cabecera{
     background-color: tomato;
@@ -79,7 +77,6 @@ details summary:after {
   margin-top: 0.75rem;
   right: 0;
   font-weight: 100;
-  /* transform-origin: center; */
   transition: 200ms linear;
 }
 details[open] summary:after {
