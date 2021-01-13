@@ -1,0 +1,14 @@
+body{
+    background-color: #C6FEFF;
+}
+
+#nombre{
+    font-size: 24pt;
+    text-align: center;
+}
+
+
+
+span.texto::first-line{
+    color: red;
+}
