@@ -1,14 +1,58 @@
 body{
-    background-color: #C6FEFF;
+    background-color: #b7d3f8;
 }
 
 #nombre{
     font-size: 24pt;
     text-align: center;
+    color: blue;
+}
+p#nombre::first-letter{
+    font-size: 48pt;
+    color: black;
+}
+
+nav{
+    text-align: center;
+    margin-top: 0px;
+    height: 35px;
+    position: relative;
+    top: -35px;
+}
+
+p.menu{
+    display: inline-block;
+    margin-left: auto;
+    color: blue;
 }
 
 
+p.menu:hover{
+    background-color: yellow;
+    cursor: default;
+}
 
-span.texto::first-line{
+
+p.texto::first-line{
     color: red;
+}
+
+.titulo{
+    font-weight: bold;
+    counter-reset: cuenta-ciclos;
+}
+
+a:link{
+    background-color: white;
+    color: blue;
+}
+
+a:visited{
+    background-color: blue;
+    color: white;
+}
+
+p.lista::before{
+    content: counter(cuenta-ciclos) ". ";
+    counter-increment: cuenta-ciclos;
 }
