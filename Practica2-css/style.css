@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(170, 198, 240);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+header p{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    
+}
+
+#imagenes{
+    text-align: center;
+    position: relative;
+}
+
+#imagenes p{
+    position: relative;
+    margin: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#imagenes img{
+    height: 100px;
+    width: 120px;
+    margin: auto;
+}
+
+#secciones div{
+    margin-top: 10px;
+    border-top: blue 15px solid;
+    border-bottom: blue 15px solid;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#secciones p{
+    display: inline;
+    margin: 4px;
+}
+
+#secciones p:hover{
+    background-color: rgba(170, 198, 240, 0.5);
+}
+
