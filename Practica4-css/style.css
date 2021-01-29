@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(196, 194, 194);
+    font-family: 'san-serif';
+    word-spacing: 2px;
+    text-align: justify;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+    margin: 0;
+    position: relative;
+}
+
+header p{
+    width: max-content;
+    color: white;
+    font-size: 24pt;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+
+.black{
+    height: 2px;
+    background-color: black;
+}
+
+.white{
+    height: 3px;
+    background-color: white;
+    color: white;
+    margin-top: 0px;
+}
+
+section{
+    clear: both;
+    margin-top: 15px;
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fecha{
+    margin-top: 10px;
+    padding: 5px;
+    width: max-content;
+    letter-spacing: 3px;
+    font-size: 24pt;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.nombre{
+    font-weight: bold;
+}
+
+.grande{
+    font-size: 1.5em;
+    word-spacing: 3px;
+}
+
+.rojo{
+    background-color: white;
+    color: red;
+}
+
+.azul{
+    color: rgb(28, 28, 219);
+}
