@@ -18,7 +18,6 @@
 }
 
 #primer{
-    border: red 1px solid;
     display: flex;
 }
 
@@ -36,7 +35,6 @@
 #primer div{
     width: 70%;
     position: relative;
-    border: red 1px solid;
     vertical-align: bottom;
 }
 
