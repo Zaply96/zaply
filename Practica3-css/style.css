@@ -19,6 +19,7 @@
 
 #primer{
     border: red 1px solid;
+    display: flex;
 }
 
 #izquierda{
@@ -26,25 +27,36 @@
     color: white;
     display: inline-block;
     width: 30%;
-    height: 100%;
     position: relative;
-    float: left;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#primer div{
+    width: 70%;
+    position: relative;
+    border: red 1px solid;
+    vertical-align: bottom;
 }
 
 #derecha{
-    
     display: inline;
     background-color: black;
     color: yellow;
     line-height: 2;
-    width: 40%;
-    position: relative;
-    border: red 1px solid;
+}
+
+.aux{
+    opacity: 0.4;
+    width: 60%;
+    justify-self: center;
+    margin-bottom: 10px;
 }
 
 
 
-#segon hr{
+.divisor{
     clear: both;
     height: 10px;
     color: blue;
@@ -62,4 +74,5 @@
 #tercer{
     font-family: 'YuseiMagic',sans-serif;
     font-size: 110%;
+    font-weight: bold;
 }
