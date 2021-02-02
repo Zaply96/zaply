@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#titulo{
+    font-size: 35pt;
+    font-weight: bold;
+    border: 5px black solid;
+    text-align: center;
+}
+
+#uno{
+    border-top: 18px red double;
+    border-left: 18px red double;
+}
+
+#dos{
+    border-top: 5px blue dashed;
+    border-left: 30px green solid;
+    border-bottom: blue 20px dashed;
+}
+
+#tres{
+    border-top: rgb(255, 217, 0) 30px double;
+    border-bottom: rgb(255, 217, 0) 30px double;
+    border-left: 8px rgb(255, 217, 0) double;
+    border-right: 8px rgb(255, 217, 0) double;
+}
+
+#cuatro{
+    border-top: rgb(1, 233, 1) 20px solid;
+    border-bottom: rgb(1, 36, 233) 20px solid;
+    word-spacing: 10px;
+}
+
+#cinco{
+    border-top: red 35px dashed;
+    border-left: 35px solid black;
+    border-right: 35px solid black;
+    border-bottom: black 35px dotted;
+}
+
+#seis{
+    border-top: dotted 10px black;
+    border-left: red 30px double;
+    border-bottom: black 20px dashed;
+    border-right: black 35px solid;
+}
