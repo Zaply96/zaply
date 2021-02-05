@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    border: 1px orange solid;
+    margin: 0;
+    background-color: orange;
+}
+
+header{
+    background-color: orange;
+    height: 70px;
+    margin-top: 0px;
+    
+}
+
+header p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 30pt;
+    height: 1em;
+    position: relative;
+    margin-top: 0px;
+    font-family: 'Sriracha', cursive;
+    
+}
+ul{
+    list-style-type: none;
+    border: red 1px solid;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    background-color: powderblue;
+    
+}
+
+li{
+    color: blue;
+    display: inline;
+    text-align: left;
+    margin-left: 0;
+    border: black 1px solid;
+    margin-right: 5px;
+}
+
+li:visited{
+    color: rgb(111, 0, 255);
+}
+
+#primera-seccion img{
+    height: 120px;
+    width: 160px;
+    float: left;
+}
+
+#primera-seccion p{
+    border-top: blue 20px solid;
+    border-bottom: blue 20px solid;
+    color: blue;
+}
+
+
+#segunda-seccion div{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    background-color: powderblue;
+    clear: both;
+}
+
+#segunda-seccion p{
+    margin-top: 5px;
+    color: red;
+    border-top: red 20px solid;
+    border-bottom: red 20px solid;
+}
+
+#segunda-seccion img{
+    margin-top: 5px;
+    height: 120px;
+    width: 160px;
+    float: right;
+}
+
+#segunda-seccion span{
+    clear: both;
+}
+
+#tercera-seccion{
+    margin-top: 0px;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(182, 81, 22);
+}
+
+#tercera-seccion p{
+    text-align: center;
+}
+
+#tercera-seccion span{
+    background-color: yellow;
+}
