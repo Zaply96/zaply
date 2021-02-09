@@ -1,4 +1,7 @@
-
+body{
+    background-color: rgb(201, 201, 201);
+    font-family: sans-serif;
+}
 
 #titulo{
     font-size: 24pt;
@@ -6,9 +9,44 @@
     margin-top: 5px;
 }
 
-#Lista{
+.Lista{
     list-style-type: none;
     font-size: 18pt;
     font-weight: bold;
-    
+    clear: both;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#Lista1 li{
+    background-color: rgb(100, 211, 100);
+    float:left;
+    border: 4px dashed rebeccapurple;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 10px;
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Lista2{
+    text-align: center;
+}
+
+#Lista2 li{
+    display: inline;
+    background-color: white;
+    padding: 0.5em;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    margin: 1em;
+}
+
+#Lista3 li{
+    border: 1px solid black;
 }
