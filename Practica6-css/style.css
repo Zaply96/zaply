@@ -47,6 +47,51 @@ ul{
     margin: 1em;
 }
 
-#Lista3 li{
-    border: 1px solid black;
+#Lista3{
+    border: 1px black solid;
+    padding: 20px;
+    height: max-content;
+    width: max-content;
 }
+
+#Lista3 li{
+    border: black 1px solid;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 0.5em;
+    width: 120px;
+    background-color: white;
+    text-align: center;
+}
+
+#Lista4{
+    text-align: center;
+}
+
+#Lista4 li{
+    display: inline-block;
+    width: 150px;
+    padding: 0.7em 0;
+    margin: 0;
+    position: relative;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+
+#Lista4 .B{
+    color:white;
+    background-color: blue;
+}
+
+#Lista5 {
+    text-align: center;
+}
+
+#Lista5 li{
+    margin: 0 3%;
+}
+
+.ini{
+    list-style-image: url("./img/casa.png");
+}
+
