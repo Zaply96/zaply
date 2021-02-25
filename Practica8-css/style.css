@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+header p{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+p{
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+#naranja{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 78%;
+    background-color: rgb(255, 199, 96);
+    border: 1px black solid;
+}
+
+
+#amarillo{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    bottom: 50%;
+    right: 60%;
+    background-color: yellow;
+    text-align: left;
+    border: 2px solid rgb(179, 179, 1);
+}
+
+#azul{
+    border: rgb(0, 172, 172) 2px solid;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    left: 60%;
+    bottom: 50%;
+    background-color: cyan;
+    text-align: right;
+}
+
+#rosa{
+    border: 2px solid rgb(160, 107, 133);
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    right: 60%;
+    bottom: 7%;
+    background-color: rgb(235, 160, 196);
+    text-align: left;
+}
+
+#morado{
+    border: 2px solid rgb(185, 117, 185);
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    right: 5%;
+    bottom: 7%;
+    background-color: rgb(241, 153, 241);
+    text-align: right;
+}
+
+#verde{
+    border: 2px solid rgb(81, 161, 0);
+    position:absolute;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    bottom: 27%;
+    background-color: lawngreen;
+    text-align: center;
+}
+
+div:hover{
+    z-index: 1;
+}
